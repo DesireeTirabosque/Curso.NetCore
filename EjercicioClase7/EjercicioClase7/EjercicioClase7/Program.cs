@@ -31,7 +31,7 @@ for (int i = 0; i < numeros.Length; i++)
         min = numeros[i];
 }
 Console.WriteLine();
-Console.WriteLine($"El valor de suma es: {suma}");
-Console.WriteLine($"El promedio de los numeros ingresados es: {promedio}");
-Console.WriteLine($"El mayor numero es: {max}");
-Console.WriteLine($"El menor numero es:  {min}");
+Console.WriteLine($"El valor de la suma de los números ingresados es: {suma}");
+Console.WriteLine($"El promedio de los números ingresados es: {promedio}");
+Console.WriteLine($"El mayor número es: {max}");
+Console.WriteLine($"El menor número es:  {min}");
