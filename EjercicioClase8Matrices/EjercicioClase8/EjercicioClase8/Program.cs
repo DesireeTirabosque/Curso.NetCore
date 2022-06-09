@@ -17,6 +17,7 @@ int columnas=int.Parse(Console.ReadLine());
 int[,] numeros = new int[filas, columnas];
 
 double[] promedios= new double[columnas];
+
 //cantidad de filas
 int lengthFilas=numeros.GetUpperBound(0) + 1;
 
@@ -30,7 +31,7 @@ for (int i = 0; i < lengthColumnas; i++)
     acumuladorColumnas = 0;
     for (int j = 0; j < lengthFilas; j++)
     {
-        Console.WriteLine("Cargue el numero que contendrá la columna " + (i+1) + " de la matriz");
+        Console.WriteLine("Cargue el número que contendrá la columna " + (i+1) + " de la matriz");
         numeros[j,i] = int.Parse(Console.ReadLine());
      
         acumuladorColumnas=acumuladorColumnas + numeros[j,i];
